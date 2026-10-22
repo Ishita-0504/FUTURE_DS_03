@@ -7,6 +7,13 @@ Explore the interactive Bank Marketing Campaign Analysis dashboard built using S
 
 🔗 **[View Live Dashboard](https://futureds-03.streamlit.app/)**
 
+
+## 📊 Dashboard Preview
+
+![Marketing Campaign Conversion Dashboard](Dashboard1.png)
+![Marketing Campaign Conversion Dashboard](Dashboard2.png)
+![Marketing Campaign Conversion Dashboard](Dashboard3.png)
+
 ## 📂 GitHub Repository
 
 The source code, analysis notebook, and project resources are available in this repository.
