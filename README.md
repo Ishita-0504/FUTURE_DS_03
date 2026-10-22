@@ -1,67 +1,82 @@
-# FUTURE_DS_03 – Marketing Campaign Conversion Analysis
 
+# 📊 Marketing Campaign Conversion Analysis
+
+**Future Interns | Data Science & Analytics | Task 3**
+
+An interactive data analytics project exploring bank marketing campaign performance and customer subscription patterns using Python and Streamlit.
 
 ## 🚀 Live Dashboard
 
-Explore the interactive Bank Marketing Campaign Analysis dashboard built using Streamlit.
+[**View the Interactive Dashboard**](https://futureds-03.streamlit.app/)
 
-🔗 **[View Live Dashboard](https://futureds-03.streamlit.app/)**
-
-
-## 📊 Dashboard Preview
+## 📸 Dashboard Preview
 
 ![Marketing Campaign Conversion Dashboard](Dashboard1.png)
 ![Marketing Campaign Conversion Dashboard](Dashboard2.png)
 ![Marketing Campaign Conversion Dashboard](Dashboard3.png)
 
-## 📂 GitHub Repository
+## 🎯 Project Objectives
 
-The source code, analysis notebook, and project resources are available in this repository.
+- Analyze the effectiveness of bank marketing campaigns.
+- Evaluate conversion rates across contact methods and campaign months.
+- Explore the relationship between previous campaign outcomes and subscription success.
+- Compare customer conversion rates across age groups.
+- Present key findings through an interactive dashboard.
 
-## Project Overview
-This project analyzes the Bank Marketing dataset using Python to understand campaign conversion performance and identify patterns associated with successful customer subscriptions.
+## 🛠️ Tools & Technologies
 
-## Objectives
-- Calculate the overall campaign conversion rate.
-- Compare conversion rates by contact method.
-- Identify monthly campaign performance patterns.
-- Analyze previous campaign outcomes.
-- Compare conversion rates across customer age groups.
+- **Python** — data analysis
+- **Pandas & NumPy** — data manipulation
+- **Matplotlib, Seaborn & Plotly** — data visualization
+- **Streamlit** — interactive dashboard development
+- **Jupyter Notebook** — exploratory data analysis
+- **Git & GitHub** — version control
 
-## Tools and Technologies
-- Python
-- Pandas
-- Matplotlib
-- Jupyter Notebook
-- VS Code
+## 📈 Key Findings
 
-## Dataset
-The analysis uses the `bank-additional-full.csv` dataset, containing 41,188 records and 21 columns.
+- **Total contacts:** 41,188
+- **Successful subscriptions:** 4,640
+- **Overall conversion rate:** 11.27%
+- **Contact method:** Cellular contacts showed a higher conversion rate than telephone contacts.
+- **Previous campaign outcome:** Customers with a previous successful campaign outcome had the highest conversion rate.
+- **Campaign month:** Conversion rates varied considerably across months.
+- **Age group:** Older customers showed relatively high conversion rates in the analysis.
 
-The target variable is `y`:
-- `yes`: Customer subscribed.
-- `no`: Customer did not subscribe.
+*These findings describe patterns in the dataset and do not establish causation. Conversion rates should also be considered alongside the number of contacts in each group.*
 
-## Key Findings
-- **Overall conversion rate:** 11.27% (4,640 successful conversions out of 41,188 contacts).
-- **Contact method:** Cellular contacts had a 14.74% conversion rate, compared with 5.23% for telephone contacts.
-- **Campaign month:** March recorded the highest conversion rate at 50.55%, while May recorded the lowest at 6.43%.
-- **Previous campaign outcome:** Customers with a previous successful outcome had a 65.11% conversion rate.
-- **Age group:** Customers aged 65+ had a 46.85% conversion rate, based on 619 contacts.
+## 📂 Project Files
 
-## Recommendations
-1. Evaluate cellular outreach as a potentially effective contact channel.
-2. Investigate why conversion rates differ across campaign months.
-3. Consider previous campaign outcomes when prioritizing customer outreach.
-4. Validate age-related patterns before using them for campaign targeting.
-5. Monitor both conversion rates and contact volumes when evaluating performance.
+- `app.py` — Streamlit dashboard application
+- `task3_analysis.ipynb` — data analysis notebook
+- `requirements.txt` — Python dependencies
+- `bank-additional-full.csv` — dataset used by the application
+- `Dashboard1.png` — dashboard screenshot
 
-## Conclusion
-The analysis highlights differences in conversion performance across contact methods, months, previous campaign outcomes, and age groups. These findings can help inform future campaign planning and further investigation.
+## ▶️ Run Locally
 
-The results show associations in the dataset and do not prove that any factor directly causes higher conversion rates.
+1. Clone this repository:
 
-## Project Files
-- `task3_analysis.ipynb` – Data analysis, calculations, and visualizations.
-- `bank-additional-full.csv` – Dataset used for the analysis.
+   ```bash
+   git clone https://github.com/Ishita-0504/FUTURE_DS_03.git
+   cd FUTURE_DS_03
+   ```
+
+2. Install dependencies:
+
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+3. Run the dashboard:
+
+   ```bash
+   streamlit run app.py
+   ```
+
+## 👩‍💻 Author
+
+**Ishita Das**
+
+[GitHub Repository](https://github.com/Ishita-0504/FUTURE_DS_03) | [Live Dashboard](https://futureds-03.streamlit.app/)
+ataset used for the analysis.
 - `README.md` – Project documentation.
