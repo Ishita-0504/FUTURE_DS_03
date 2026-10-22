@@ -1,5 +1,16 @@
 # FUTURE_DS_03 – Marketing Campaign Conversion Analysis
 
+
+## 🚀 Live Dashboard
+
+Explore the interactive Bank Marketing Campaign Analysis dashboard built using Streamlit.
+
+🔗 **[View Live Dashboard](https://futureds-03.streamlit.app/)**
+
+## 📂 GitHub Repository
+
+The source code, analysis notebook, and project resources are available in this repository.
+
 ## Project Overview
 This project analyzes the Bank Marketing dataset using Python to understand campaign conversion performance and identify patterns associated with successful customer subscriptions.
 
